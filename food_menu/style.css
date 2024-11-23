@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.logo {
+    color: rgb(94, 152, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 0px 20px;
+
+}
+
+.img {
+    width: 25rem;
+    padding-right: 180px;
+}
+
+.main-container {
+    padding-left: 50px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+.text {
+    padding-top: 80px;
+    width: 500px;
+}
+
+.dis {
+    background-color: rgb(30, 201, 30);
+    width: 223px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    list-style-type: none;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.dis:hover {
+    background-color: rgb(7, 178, 7);
+}
+
+.heading {
+    font-size: 57px;
+}
+
+.text2 {
+    background-color: rgb(195, 195, 9);
+    color: white;
+    width: 89px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text2:hover {
+    background-color: rgb(179, 179, 8);
+}
+
+.about {
+    display: flex;
+    gap: 250px;
+    padding: 60px 0 0 50px;
+}
+
+.discount {
+    display: flex;
+    gap: 20px;
+}
+
+.distext {
+    width: 191px;
+}
+
+.fresh {
+    display: flex;
+    gap: 20px;
+}
+
+.freshtext {
+    width: 191px;
+}
+
+.delivery {
+    display: flex;
+    gap: 20px;
+}
+
+.deliverytext {
+    width: 191px;
+}
+
+.line {
+    margin-top: 70px;
+    border: 1px solid gray;
+}
+
+.container2 {
+    height: auto;
+}
+
+.ourmenu {
+    background-color: rgb(16, 199, 16);
+    width: 70px;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ourmenu:hover {
+    background-color: rgb(12, 171, 12);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 20px;
+}
+
+.grid {
+    padding-top: 80px;
+    display: grid;
+    gap: 2px;
+    grid-template-areas:
+        "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+}
+
+.grid-image {
+    height: 100%;
+    width: 100%;
+}
+
+.image1 {
+    grid-area: I1;
+}
+
+.image2 {
+    grid-area: I2;
+}
+
+.image3 {
+    grid-area: I3;
+}
+
+.image4 {
+    grid-area: I4;
+}
+
+.image5 {
+    grid-area: I5;
+}
+
+.image6 {
+    grid-area: I6;
+}
+
+.image7 {
+    grid-area: I7;
+}
+
+footer {
+    height: 20vw;
+    background-color: antiquewhite
+}
+
+.bottom {
+    padding-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo2 {
+    padding-bottom: 20px;
+}
+
+.main {
+    padding-bottom: 8px;
+}
+
+.support1 {
+    padding-bottom: 8px;
+}
+
+.new {
+    padding-bottom: 8px;
+}
+
+.pic {
+    display: flex;
+    gap: 10px;
+}

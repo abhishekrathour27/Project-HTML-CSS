@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: coral;
+    height: auto;
+    display: flex;
+}
+.head{
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+.image{
+    display: flex;
+    border-radius: 300px;
+    padding-left: 30px;
+}
+.text{
+    align-items: center;
+    padding-left: 20px;
+}
+main{
+    height: 50vh;
+    background-color: aliceblue;
+}
+.heading{
+    padding-left: 20px;
+    font-size: 20px;
+
+}
+.about{
+    float: inline-end;
+    display: flex;
+    gap: 5px;
+    padding: 20px 10px;
+    font-size: 20px;
+}
